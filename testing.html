@@ -7,5 +7,12 @@ p {
 background:white;
 }
 </style>
-<script src="js/impress.js"/>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
 <p>hello</p>
+<p>hi</p>
